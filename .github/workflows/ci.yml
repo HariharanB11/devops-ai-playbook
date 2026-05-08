@@ -1,6 +1,11 @@
 name: Boutique CI Pipeline
 
 on:
+  push:
+    branches:
+      - main
+      - project-demo
+
   workflow_dispatch:
 
 env:
